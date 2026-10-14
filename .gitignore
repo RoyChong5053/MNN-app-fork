@@ -1,0 +1,17 @@
+# Build intermediates (local only, never commit)
+.gradle/
+.cxx/
+build/
+app/build/
+
+# Local paths (Android SDK / NDK / keystore secrets)
+local.properties
+*.jks
+*.keystore
+
+# Output artifacts + caches
+*.apk
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
